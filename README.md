@@ -1,3 +1,7 @@
-Crypto fun! Projects include:
+# Crypto fun!
 
-* **2TP (two-time pad)** An object lesson in just how broken 2TP actually is. Run by calling `./two-time-pad.py` from your command line and then check out the images!
+Projects include:
+
+* **[2TP (two-time pad)](/2TP)** — An object lesson in just how broken 2TP actually is.
+
+See more @ Crypto101, Khan Academy, and Introduction to Cryptography (grad book)
