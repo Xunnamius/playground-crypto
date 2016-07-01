@@ -1,4 +1,4 @@
-# The terrible crypto darwin award winning TWO TIME PAD!
+# The Terrible Crypto Darwin Award Winning TWO TIME PAD!
 
 Run by calling `./two-time-pad.py` from your command line and then check out the images in numerical order. You won't be disappoint.
 
