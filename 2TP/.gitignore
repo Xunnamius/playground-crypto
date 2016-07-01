@@ -1,4 +1,4 @@
 3. key.bmp
-4. broken-cipher.bmp
-5. crypto-cipher.bmp
-6. broken-crypto-cipher.bmp
+4. broken-xor-key.bmp
+5. crypto-xor-key.bmp
+6. broken-xor-key-xor-crypto-xor-key.bmp
