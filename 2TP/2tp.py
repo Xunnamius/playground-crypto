@@ -7,8 +7,8 @@ import operator
 from PIL import Image
 
 if __name__ == "__main__":
-    broken = Image.open('broken.bmp')
-    crypto = Image.open('crypto.bmp')
+    broken = Image.open('1. broken.bmp')
+    crypto = Image.open('2. crypto.bmp')
 
     assert broken.size == crypto.size
 
@@ -23,7 +23,7 @@ if __name__ == "__main__":
     keyData = os.urandom(imgDimByteCount * squareImgDim)
     keyImg = Image.frombytes('1', (squareImgDim, squareImgDim), keyData)
 
-    keyImg.save('key.bmp')
+    keyImg.save('3. key.bmp')
 
     # Do the XOR and save the results
 
@@ -38,6 +38,6 @@ if __name__ == "__main__":
     cryptoCipherImg = Image.frombytes('1', (squareImgDim, squareImgDim), cXkData)
     brokenCryptoCipherImg = Image.frombytes('1', (squareImgDim, squareImgDim), bXcData)
 
-    brokenCipherImg.save('broken-cipher.bmp')
-    cryptoCipherImg.save('crypto-cipher.bmp')
-    brokenCryptoCipherImg.save('broken-crypto-cipher.bmp')
+    brokenCipherImg.save('4. broken-cipher.bmp')
+    cryptoCipherImg.save('5. crypto-cipher.bmp')
+    brokenCryptoCipherImg.save('6. broken-crypto-cipher.bmp')
