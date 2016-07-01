@@ -6,6 +6,6 @@ Thus is the danger of using a One-Time-Pad twice. You leak information, even if 
 
 ## Requirements
 
-You must install the following via `sudo pip3 install XYZ`:
+You must have [python3](https://www.python.org/downloads/) and [pip3](https://stackoverflow.com/questions/6587507/how-to-install-pip-with-python-3) for python installed. You must then install the following via `sudo pip3 install XYZ`:
 
 * pillow
